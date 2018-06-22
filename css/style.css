@@ -130,8 +130,8 @@ ul, ol {
 }
 
 .sm-padding {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -144,7 +144,7 @@ ul, ol {
 }
 
 .bg-dark {
-    background-color: #1C1D21;
+    background-color: #06103a;
 }
 
 
@@ -172,7 +172,7 @@ ul, ol {
     background: #1C1D21;
 
     background: -webkit-linear-gradient(left, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
-    background: linear-gradient(to right, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%)
+    background: linear-gradient(to right, #191f88c7 0%, rgba(5, 12, 90, 0.87) 100%);
 }
 
 
@@ -322,7 +322,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     left: 0;
     right: 0;
     padding: 0px 0px;
-    background-color: #FFF !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
     border-bottom: 1px solid #EEE;
 }
 
@@ -1492,12 +1492,18 @@ header {
 }
 
 .footer-copyright p {
-    text-align: center;
+    /* text-align: center; */
     font-size: 14px;
     text-transform: uppercase;
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
+.footer-divider {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(238, 238, 238, 0.2);
+}
 
 /*------------------------------------*\
 	Responsive
